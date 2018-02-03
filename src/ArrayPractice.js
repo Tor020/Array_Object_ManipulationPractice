@@ -1,4 +1,4 @@
-import { a, b } from './Helpers'
+import { a, b } from '.BunchaHelpers/Helpers'
 import {
   arr_Obj_People as people,
   arr_Obj_Comments as comments,
@@ -23,60 +23,19 @@ miscArr.forEach((value, index, arrCalledOn) => {
     miscArr.push(25);
     a(miscArr);
     b(miscArr);
-/*///
 
-a(miscArr);
-b(miscArr);
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-
-  
-/*///
+// Function to cut 3 items out of an array and push it to another array until there is no more than 3 inside
+function spliceCheck(array) {
+let arrContainer = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array.length > 3) {
+      arrContainer.push(array.splice(0, 3))
+    }
+  }
+  return arrContainer;
+}
 
 
 
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-  
-/*///
-
-a(miscArr);
-b(miscArr);
-
-  
-/*///
-
-a(miscArr);
-b(miscArr);
+a(spliceCheck(people))
+b(spliceCheck(people))
