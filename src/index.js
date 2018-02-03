@@ -1,24 +1,32 @@
+import './ArrayPractice'
+
+
+
+
+
+
+
 // Dependency import
-import React from 'react';
-import { render } from 'react-dom';
+// import React from 'react';
+// import { render } from 'react-dom';
 
 // Component Import
 
 
-class Root extends React.Component{
+// class Root extends React.Component{
 
-  render(){
-    return (
+//   render(){
+//     return (
 
-  <p>ayy</p>
-    )
-  }
-}
-
-
+//   <p>ayy</p>
+//     )
+//   }
+// }
 
 
-render(<Root/>, document.getElementById('root'))
+
+
+// render(<Root/>, document.getElementById('root'))
  
 
  

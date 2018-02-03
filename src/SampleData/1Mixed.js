@@ -1,4 +1,4 @@
-    const arr_Obj_People = [
+    export const arr_Obj_People = [
       {id:1, name: 'Kevin', year: 1991 },
       {id:2, name: 'Tor', year: 1986 },
       {id:3, name: 'Jack', year: 1970 },
@@ -10,7 +10,7 @@
       {id:9, name: 'Frank', year: 1986 },
     ];
 
-    const arr_Obj_Comments = [
+    export const arr_Obj_Comments = [
       { text: 'gr8 job', id: 523423 },
       { text: 'DANG NICE', id: 823423 },
       { text: 'this is rly gud', id: 2039842 },
@@ -20,7 +20,7 @@
       { text: 'PLS Y, STAHP', id: 982 },
     ];
 
-    const arr_Obj_Inventors = [
+    export const arr_Obj_Inventors = [
       { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
       { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
       { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
@@ -35,19 +35,19 @@
       { first: 'Hanna', last: 'Hammarström', year: 1829, passed: 1909 }
     ];
 
-  const arr_Adjectives = ['adorable', 'beautiful', 'clean', 'drab', 'elegant', 'ivory', 'fancy', 'glamorous', 'handsome', 'long', 'magnificent', 'old-fashioned', 'plain', 'quaint', 'sparkling', 'ugliest', 'unsightly', 'angry', 'bewildered', 'clumsy', 'defeated', 'embarrassed', 'fierce', 'grumpy', 'helpless', 'itchy', 'jealous', 'lazy', 'mysterious', 'nervous', 'obnoxious', 'panicky', 'repulsive', 'scary', 'thoughtless', 'uptight', 'worried'];
+  export const arr_Adjectives = ['adorable', 'beautiful', 'clean', 'drab', 'elegant', 'ivory', 'fancy', 'glamorous', 'handsome', 'long', 'magnificent', 'old-fashioned', 'plain', 'quaint', 'sparkling', 'ugliest', 'unsightly', 'angry', 'bewildered', 'clumsy', 'defeated', 'embarrassed', 'fierce', 'grumpy', 'helpless', 'itchy', 'jealous', 'lazy', 'mysterious', 'nervous', 'obnoxious', 'panicky', 'repulsive', 'scary', 'thoughtless', 'uptight', 'worried'];
 
-  const arr_Nouns = ['women', 'men', 'children', 'crypt', 'Weddell-Seal', 'MeMes', 'teeth', 'feet', 'people', 'leaves', 'mice', 'geese', 'halves', 'knives', 'wives', 'lives', 'elves', 'loaves', 'potatoes', 'rice', 'glass'
+  export const arr_Nouns = ['women', 'men', 'children', 'crypt', 'Weddell-Seal', 'MeMes', 'teeth', 'feet', 'people', 'leaves', 'mice', 'geese', 'halves', 'knives', 'wives', 'lives', 'elves', 'loaves', 'potatoes', 'rice', 'glass'
   , 'bass', 'tomatoes', 'cacti', 'foci', 'fungi', 'nuclei', 'syllabuses', 'analyses', 'diagnoses', 'oases', 'theses', 'crises', 'phenomena', 'criteria', 'data'];
 
-  const arr_SmNumb = [8, 3, 5, 4, 1, 2, 7];         
-  const arr_MedNumb = [12, 9, 34, 22, 59, 74, 92];         
-  const arr_LgNumb = [98, 200, 88, 78, 702, 190];
-  const arr_LargeNumb = [24, 56, 193, 500, 232, 214, 112, 34, 5, 75];
-  const arr_Multi_Numb = [[24, 34], [2, 7], [85, 34], [19, 11], [100, 35]];
-  const arr_Multi_Numb_String = [[24, 'ted'], [2, 'face'], [85, 'abstract'], [19, 'candlestick'], [100, 'stopsign', 350]];  //regex to remove characters?
+  export const arr_SmNumb = [8, 3, 5, 4, 1, 2, 7];         
+  export const arr_MedNumb = [12, 9, 34, 22, 59, 74, 92];         
+  export const arr_LgNumb = [98, 200, 88, 78, 702, 190];
+  export const arr_LargeNumb = [24, 56, 193, 500, 232, 214, 112, 34, 5, 75];
+  export const arr_Multi_Numb = [[24, 34], [2, 7], [85, 34], [19, 11], [100, 35]];
+  export const arr_Multi_Numb_String = [[24, 'ted'], [2, 'face'], [85, 'abstract'], [19, 'candlestick'], [100, 'stopsign', 350]];  //regex to remove characters?
 
-const animals = [
+export const arr_Obj_animals = [
   {
     PolarBear: {
       Classification: 'Mammal',
@@ -118,7 +118,7 @@ const animals = [
   }
 ]
 
-const obj_Fishes = {
+export const obj_Fishes = {
   fish1: {
     name: 'Pacific Halibut',
     price: 1724,
