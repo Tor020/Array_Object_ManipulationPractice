@@ -17,3 +17,16 @@ let arrContainer = [];
   }
   return arrContainer;
 }
+
+// Helper Function to expedite object Assign rewrites
+const setStylesOnElement = function(styles, element){
+  Object.assign(element.style, styles);
+}
+// Helper Function to check if a number is even
+function isEven(n) {
+  return n % 2 == 0;
+}
+// Helper Function to check if a number is odd
+function isOdd(n) {
+  return Math.abs(n % 2) == 1;
+}
