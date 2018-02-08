@@ -30,3 +30,15 @@ function isEven(n) {
 function isOdd(n) {
   return Math.abs(n % 2) == 1;
 }
+
+function qS (selector){
+  return function(identifier){
+    return document.querySelector(`${selector}${identifier}`);
+  }
+}
+
+function qSArrow(selector) {
+  return (identifier) => {
+    return document.querySelector(`${selector}${identifier}`);
+  }
+}
