@@ -1,14 +1,13 @@
-// https://www.codewars.com/trainer/javascript
 
 let c = (arg) => {
   console.log(arg);
 }
 
-function friend(friends){
-    friends.forEach = (val, i)=> {
-    c(val, i)
-  }
+
+
+
+function digitize(n){
+
 }
 
-
-c(friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"]));
+digitize(35231)

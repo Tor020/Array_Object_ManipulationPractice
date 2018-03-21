@@ -2,6 +2,39 @@ let c = (arg) => {
   console.log(arg)
 }
 
+//remove all white space from a string, uses regex
+function noSpace(x) {
+  x = x.replace(/\s/g, '');
+  return x;
+}
+
+// Return the opposite of a number given
+function opposite(number) {
+  return number = -number;
+}
+
+
+// Take a true false boolean and return a string 
+function boolToWord(bool) {
+  // c(bool)  // returns true in boolean form
+  // c(typeof (bool)) //RETURNS BOOLEAN
+  // bool.toString()
+ 
+  if ( bool.toString() === "true"){
+    return "Yes";
+  }
+  if ( bool.toString() === "false"){
+    return "No";
+  }  
+}
+/* I might be fucking retarded idk.. */
+function boolToWord( bool ){
+  return bool ? 'Yes':'No';
+}
+
+boolToWord(true);
+boolToWord(false);
+
 // Takes the operation and 2 values and performs it on the values
 function basicOp(operation, value1, value2){
   if (operation === "*"){
