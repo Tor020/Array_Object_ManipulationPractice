@@ -24,76 +24,16 @@
     <title>React Gulp BoilerPlate</title>
   </head>
   <body>
-<a href="https://repl.it/community/classrooms/20690">These</a>
-
-
-
-  <label for="" id="one">Numbers One</label>
-  <label for="" id="two">Numbers Two</label>
-  <label for="" id="three"> Numbers Three</label>
-
-
-
-<script>
-
-  function modifyText (ele) {
-    return  (content) => {
-      ele.textContent =  `${content}`
-      }
-  }
-
-
-(function(){
-
-function hlp(ele){
-  return document.getElementById(ele)
-}
-const one = hlp('one');
-const two = hlp('two');
-const three = hlp('three');
-
-
-})();
-
-function random(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
-
-
-let oneTxt = modifyText(one);
-let twoTxt = modifyText(two);
-let threeTxt = modifyText(three);
-
-// https://javascript.info/settimeout-setinterval
-
-let timerId = setTimeout(function tick() {
-  oneTxt(Math.round(random(500)));
-  twoTxt(Math.round(random(500)));
-  threeTxt(Math.round(random(500)));
-  timerId = setTimeout(tick, 2000); // (*)
-}, 2000);
 
 
 
 
-</script>
-
-    <div>content</div>
-
-
-    <div class="before-OutputWindow">
-
-    </div>
-
-    <div class="after-OutputWindow"></div>
+<br>  <label for="" id="one">Numbers One</label>
+<br>  <label for="" id="two">Numbers Two</label>
+<br>  <label for="" id="three"> Numbers Three</label>
+<br><br>
 
 
 
-
-    <!-- <div id="root"></div> -->
-    <!--
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-    -->
   </body>
 </html>
