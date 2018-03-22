@@ -2,6 +2,17 @@ let c = (arg) => {
   console.log(arg)
 }
 
+
+//Convert number to reversed array of digits
+function digitize(n) {
+  n = n.toString().split('').reverse()
+  n = n.map((i) => {
+   return parseInt(i)
+  });
+  return n;
+}
+digitize(35231)
+
 //remove all white space from a string, uses regex
 function noSpace(x) {
   x = x.replace(/\s/g, '');

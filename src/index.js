@@ -3,11 +3,12 @@ let c = (arg) => {
   console.log(arg);
 }
 
-
-
-
-function digitize(n){
-
+// add numbers together with reduce
+function simpleArraySum(ar) {
+ar = ar.reduce((total, currentVal) => {
+ return total+currentVal;
+})
+return ar;
 }
 
-digitize(35231)
+simpleArraySum([2,3,4,5]) 
